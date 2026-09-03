@@ -1,0 +1,12 @@
+PANDUAN V2
+1. Extract ZIP ke htdocs.
+2. Buat database dinas_smp.
+3. Import database/dinas_smp_v2.sql.
+4. Sesuaikan config/database.php.
+5. Login admin: /admin/login.php
+   username: admin
+   password: admin123
+6. Ganti data contoh 34 sekolah dengan data resmi.
+7. Upload logo daerah ke uploads/logo/logo-daerah.png atau ubah nama file di Pengaturan.
+8. Untuk produksi, aktifkan HTTPS, ganti password admin, buat backup database, dan jangan menaruh password database di repository publik.
+9. Data Dapodik pada paket ini adalah struktur penyimpanan untuk input/import data, bukan koneksi otomatis ke server Dapodik. Integrasi resmi memerlukan akses/API/otorisasi yang tersedia dari instansi terkait.

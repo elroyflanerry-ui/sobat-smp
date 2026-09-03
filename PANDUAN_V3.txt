@@ -1,0 +1,30 @@
+APLIKASI MANAJEMEN BIDANG SMP V3
+
+MODUL UTAMA:
+1. Dashboard indikator sekolah, siswa, guru, rombel, program, monitoring, layanan, dokumen, operator.
+2. Master data sekolah.
+3. Dapodik lokal + riwayat + input massal CSV (lihat modul V2 yang dipertahankan).
+4. Program & kegiatan.
+5. Monitoring sekolah.
+6. Layanan/permohonan publik.
+7. Operator sekolah.
+8. Struktur organisasi.
+9. Galeri.
+10. Berita & agenda.
+11. Dokumen.
+12. Statistik/peta.
+13. Laporan & audit log.
+14. Pengaturan portal dan ganti password.
+
+INSTALASI:
+- Extract ke htdocs.
+- Buat database dinas_smp.
+- Import database/dinas_smp_v3.sql setelah database/dinas_smp_v2.sql (atau gunakan SQL V2 lalu SQL V3).
+- Edit config/database.php.
+- Pastikan uploads dapat ditulis.
+- Login admin: admin / admin123, lalu ubah password.
+
+CATATAN:
+- Data 34 sekolah pada paket V2 adalah CONTOH/TEMPLATE, bukan data resmi.
+- Dapodik pada paket ini adalah penyimpanan/input lokal, bukan integrasi otomatis dengan server Dapodik resmi.
+- Untuk penggunaan resmi: HTTPS, backup, password kuat, pembatasan akses, validasi upload, audit keamanan, dan penggantian logo/data dengan aset resmi instansi.
